@@ -38,6 +38,5 @@ changelog:
 
 release:
   github:
-    owner: sonatype-nexus-community
+    owner: allenhsieh
     name: nancy
-  disable: true
