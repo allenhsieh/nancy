@@ -18,6 +18,7 @@ builds:
 archives:
   - 
     name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+    format: binary
     format_overrides:
       - goos: windows
         format: zip
