@@ -21,7 +21,7 @@ builds:
 archives:
   - nancy-darwin.amd64-v0.0.44
 
-    name_template: "{{ .ProjectName }}_{{ .Os }}.{{ .Arch }}_{{ .Version }}"
+    name_template: "{{ .ProjectName }}-{{ .Os }}.{{ .Arch }}-{{ .Version }}"
     format: binary
 
 checksum:
