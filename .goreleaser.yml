@@ -19,8 +19,7 @@ builds:
       - 386
 
 archives:
-  - nancy-darwin.amd64-v0.0.44
-
+  - 
     name_template: "{{ .ProjectName }}-{{ .Os }}.{{ .Arch }}-{{ .Version }}"
     format: binary
 
